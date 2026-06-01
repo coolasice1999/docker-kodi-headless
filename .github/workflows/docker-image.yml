@@ -2,9 +2,9 @@ name: coolasice1999/kodi-headless-cron
 run-name: ${{ github.ref_name }}
 
 on:
-  push:
-    tags:
-      - '[0-9]+.*'
+  workflow_dispatch:
+    branches: 
+        - Omega
 
 jobs:
   setup:
