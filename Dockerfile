@@ -7,6 +7,7 @@ RUN \
  apt-get install -y \
 	--no-install-recommends \
 	autoconf \
+	cron \
 	automake \
 	autopoint \
 	binutils \
@@ -162,6 +163,7 @@ RUN \
  apt-get install -y \
 	--no-install-recommends \
 	samba-common-bin \
+	cron \
 	libass9 \
 	libbluray2 \
 	libegl1 \
