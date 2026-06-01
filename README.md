@@ -1,8 +1,8 @@
-# matthuisman/kodi-headless
+# matthuisman/kodi-headless with added cron
 A headless install of kodi in a docker container.
 Commonly used with MySQL Kodi setup to allow library updates via web interface.
 
-https://hub.docker.com/r/matthuisman/kodi-headless
+Forked from https://hub.docker.com/r/matthuisman/kodi-headless
 
 ## Usage
 ```
